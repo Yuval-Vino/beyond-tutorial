@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "fedora/34-cloud-base"
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
-#<<<<<<< django
+<<<<<<< django
   
   config.vm.provider "virtualbox" do |vb|
      vb.memory = "1024"
@@ -82,7 +82,7 @@ end
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-#<<<<<<< django
+<<<<<<< django
 end
 =======
 end
