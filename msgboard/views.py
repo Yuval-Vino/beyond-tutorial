@@ -13,3 +13,4 @@ def board(request):
    else:
        form = MessageForm()
        return render(request, 'msgboard/board.html', {'messages': messages,'form': form,})
+   
