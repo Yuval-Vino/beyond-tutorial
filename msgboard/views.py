@@ -12,4 +12,4 @@ def board(request):
             return redirect('board')
         else:
             form = MessageForm()
-            return render(request , 'msgboard/board.html' , {'messages': messages , 'form': form ,})
+            return render(request, 'msgboard/board.html', {'messages': messages, 'form': form, })
