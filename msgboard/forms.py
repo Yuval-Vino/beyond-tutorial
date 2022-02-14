@@ -6,4 +6,3 @@ class MessageForm(forms.ModelForm):
     class Meta:
         model = Message
         fields = ('author', 'text')
-            
