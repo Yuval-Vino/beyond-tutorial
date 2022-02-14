@@ -7,3 +7,4 @@ class Message(models.Model):
   text = models.TextField()
   date = models.DateTimeField(default=timezone.now)
   
+  
